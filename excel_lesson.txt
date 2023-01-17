@@ -1,0 +1,11 @@
+Microsoft Excel is a powerful spreadsheet and data analysis program used by businesses to help organize, visualize and analyze data. In this lesson, we will explore the Microsoft Excel program and learn how to use its features.
+
+The Microsoft Excel window is divided into several parts. The topmost part of the window is the ribbon, which is a set of tools organized into tabs. The tab with the Home option is selected by default. Below the ribbon is the Formula Bar, which is used to enter and view formulas used to calculate data in the worksheet. The worksheet is the main area of the window and contains rows, columns and cells. 
+
+A workbook is a Microsoft Excel file that can contain multiple worksheets. A worksheet is a single page within the workbook that contains cells arranged in rows and columns. A column is a vertical set of cells and a row is a horizontal set of cells. A cell is the intersection of a row and a column. Cells can be used to store data, such as text, numbers, dates and times. 
+
+An array or data range in Excel is a group of cells that are arranged in a rectangular shape. To highlight a single cell, simply click on the cell. To highlight multiple cells, hold down the left mouse button and drag the mouse pointer over the group of cells you want to highlight. To input data into a cell, simply click on the cell and start typing. 
+
+To format cells, select the cells you want to format and click the Home tab. Then, click the Format button to open the Format Cells dialog box. Here, you can choose a variety of formatting options such as font, font size, background color, alignment, borders and more. 
+
+By the end of this lesson, you should have a basic understanding of the Microsoft Excel program and how to use its features.

@@ -24,18 +24,31 @@ def load_key(filename):
 
 def get_result(prompt=''):
     """get Completion from davinci"""
-    response = openai.Completion.create(prompt=prompt, model='text-davinci-003', temperature=0.5, n=1, max_tokens=1700)
+    response = openai.Completion.create(prompt=prompt
+                ,model='text-davinci-003'
+                ,temperature=0.7
+                ,n=1
+                ,max_tokens=1700
+            )
     return response.choices[0].text
+
 
 def main():
     """main entry"""
-    if len(sys.argv) == 1:
-        print('Error: no prompt given')
-        sys.exit(1)
+    prompt = ''
+    s=''
     openai.api_key = load_key('key.json')
-    prompt = sys.argv[1]
-    result = get_result(prompt)
-    print(result.strip())
+    while 1:
+        s = input('? ')
+        if s == 'q':
+            break
+        prompt += '\n' + s
+    if prompt != '':
+        result = get_result(prompt)
+        if sys.argv[1]:
+            with open(sys.argv[1], 'w') as fp:
+                fp.write(result.strip())
+        print(result.strip())
 
 
 if __name__ == '__main__':
